@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Установка и остекление окон, балконов в СПб | Окна проф-сфера</title>
+<meta name="description" content="Установка окон ПВХ, деревянных и алюминиевых. Холодное и тёплое остекление балконов и лоджий в Санкт-Петербурге. Замер бесплатно. Тел: +7 (981) 024-21-77">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo-block">
+            <span class="logo"><i class="fas fa-tools"></i> Окна <span>проф-сфера</span></span>
+            <span class="logo-tagline">Ремонтируем, устанавливаем и обслуживаем окна в СПб</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li class="has-dropdown">
+                    <a href="services.html">Услуги</a>
+                    <ul class="dropdown">
+                        <li><a href="services.html">Ремонт окон</a></li>
+                        <li><a href="ustanovka.html">Установка и остекление</a></li>
+                        <li><a href="otdelka.html">Подоконники и откосы</a></li>
+                        <li><a href="kanopy.html">Козырьки и навесы</a></li>
+                        <li><a href="welding.html">Сварочные работы</a></li>
+                    </ul>
+                </li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="portfolio.html">Наши работы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-contacts">
+            <a href="tel:+79810242177" class="header-phone"><i class="fas fa-phone-alt"></i> +7 (981) 024-21-77</a>
+            <button class="btn" onclick="openModal()">Заказать звонок</button>
+        </div>
+        <button class="burger" aria-label="Меню"><i class="fas fa-bars"></i></button>
+    </div>
+</header>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Установка окон и остекление балконов в СПб</h1>
+        <div class="breadcrumbs"><a href="index.html">Главная</a> / Установка и остекление окон</div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <p class="section-subtitle">Установка новых оконных конструкций и остекление балконов — часть полного цикла работ по окнам. Собственное производство, бесплатный замер, гарантия до 5 лет.</p>
+        <div class="advantages-grid">
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-industry"></i></div><h3>Собственное производство</h3><p>Изготавливаем окна и конструкции на своём производстве — цена ниже без потери качества.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-ruler-combined"></i></div><h3>Бесплатный замер</h3><p>Замерщик приезжает на объект, снимает размеры и подбирает оптимальное решение.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-truck-fast"></i></div><h3>Монтаж за 1 день</h3><p>Большинство окон и конструкций устанавливаем за один рабочий день.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-shield-alt"></i></div><h3>Гарантия до 5 лет</h3><p>Даём расширенную гарантию на конструкции, монтаж и фурнитуру.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding" style="background:var(--light-bg);">
+    <div class="container">
+        <h2 class="section-title">Виды работ</h2>
+        <p class="section-subtitle">Подберём окна или остекление под ваш бюджет и задачи</p>
+        <div class="types-grid">
+            <div class="type-card"><h4><i class="fas fa-window-maximize"></i> Установка окон ПВХ</h4><p>Монтаж пластиковых окон в квартирах, домах, офисах. Энергоэффективные стеклопакеты, любые размеры.</p><div class="type-price">от 500 ₽</div></div>
+            <div class="type-card"><h4><i class="fas fa-tree"></i> Установка деревянных окон</h4><p>Монтаж деревянных окон из сосны, лиственницы, дуба. Подходят для частных домов и исторических зданий.</p><div class="type-price">от 500 ₽</div></div>
+            <div class="type-card"><h4><i class="fas fa-cube"></i> Установка алюминиевых окон</h4><p>Алюминиевые конструкции для офисов, балконов, коммерческих помещений. Долговечные и лёгкие.</p><div class="type-price">от 500 ₽</div></div>
+            <div class="type-card"><h4><i class="fas fa-snowflake"></i> Холодное остекление балкона</h4><p>Алюминиевое остекление балконов и лоджий. Защита от дождя, пыли, ветра. Доступная цена.</p><div class="type-price">от 500 ₽</div></div>
+            <div class="type-card"><h4><i class="fas fa-fire"></i> Тёплое остекление балкона</h4><p>Остекление ПВХ с энергосберегающими стеклопакетами. Балкон становится полноценной комнатой.</p><div class="type-price">от 500 ₽</div></div>
+            <div class="type-card"><h4><i class="fas fa-home"></i> Остекление лоджии</h4><p>Остекление лоджий любой конфигурации. Выносные и встроенные конструкции, с выносом подоконника.</p><div class="type-price">от 500 ₽</div></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <h2 class="section-title">Как мы работаем</h2>
+        <ol class="steps-list">
+            <li>Заявка и консультация — уточняем пожелания, тип конструкции, бюджет.</li>
+            <li>Бесплатный выезд замерщика — снимаем размеры, делаем фото, предлагаем варианты.</li>
+            <li>Расчёт и согласование — присылаем смету с фиксированной ценой и сроками.</li>
+            <li>Изготовление — производим конструкцию на своём производстве (3–7 дней).</li>
+            <li>Монтаж и гарантия — устанавливаем за 1 день, выдаём гарантию до 5 лет.</li>
+        </ol>
+    </div>
+</section>
+
+<section class="section-padding" style="background:var(--light-bg);">
+    <div class="container">
+        <h2 class="section-title">Примеры работ</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Установка окон ПВХ"><div class="gallery-item-info"><h4>Установка окон ПВХ</h4><p>ЖК «Северная Долина», Приморский район</p></div></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop" alt="Остекление балкона"><div class="gallery-item-info"><h4>Холодное остекление балкона</h4><p>Красносельский район</p></div></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=800&auto=format&fit=crop" alt="Остекление лоджии"><div class="gallery-item-info"><h4>Тёплое остекление лоджии</h4><p>Выборгский район, пр. Просвещения</p></div></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?q=80&w=800&auto=format&fit=crop" alt="Деревянные окна"><div class="gallery-item-info"><h4>Установка деревянных окон</h4><p>Пушкинский район, частный дом</p></div></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800&auto=format&fit=crop" alt="Алюминиевые окна"><div class="gallery-item-info"><h4>Алюминиевые окна</h4><p>Московский район, офис</p></div></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=800&auto=format&fit=crop" alt="Остекление с выносом"><div class="gallery-item-info"><h4>Остекление с выносом</h4><p>Невский район, ул. Дыбенко</p></div></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding cta">
+    <div class="container">
+        <h2>Хотите установить окна или остеклить балкон?</h2>
+        <p>Оставьте заявку — замерщик приедет бесплатно и предложит 2–3 варианта решения.</p>
+        <button class="btn" style="background:var(--white);color:var(--primary-color);" onclick="openModal()">Вызвать замерщика</button>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col"><h4>Окна проф-сфера</h4><p>Установка и все виды ремонтных работ по оконным конструкциям в Санкт-Петербурге и Ленинградской области.</p></div>
+            <div class="footer-col"><h4>Меню</h4><ul>
+                <li><a href="index.html">Главная</a></li><li><a href="services.html">Ремонт окон</a></li>
+                <li><a href="ustanovka.html">Установка и остекление</a></li><li><a href="otdelka.html">Подоконники и откосы</a></li>
+                <li><a href="kanopy.html">Козырьки и навесы</a></li><li><a href="welding.html">Сварочные работы</a></li>
+                <li><a href="prices.html">Цены</a></li><li><a href="portfolio.html">Наши работы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li><li><a href="contacts.html">Контакты</a></li>
+            </ul></div>
+            <div class="footer-col"><h4>Контакты</h4><ul>
+                <li><a href="tel:+79810242177">+7 (981) 024-21-77</a></li>
+                <li><a href="mailto:info@prof-sfera.ru">info@prof-sfera.ru</a></li>
+                <li>Санкт-Петербург, ул. Яблочкова, 3</li>
+            </ul></div>
+            <div class="footer-col"><h4>Режим работы</h4><ul>
+                <li>Пн–Вс: 08:00 – 22:00</li><li>Выезд мастера — круглосуточно</li>
+            </ul>
+            <div class="footer-social">
+                <a href="https://max.ru/u/79810242177" target="_blank" rel="noopener"><i class="fas fa-comment-dots"></i></a>
+                <a href="mailto:info@prof-sfera.ru"><i class="fas fa-envelope"></i></a>
+            </div></div>
+        </div>
+        <div class="copyright">&copy; 2026 Окна проф-сфера. Все права защищены.</div>
+    </div>
+</footer>
+
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="close-modal" onclick="closeModal()">&times;</button>
+        <h3>Оставить заявку</h3>
+        <p>Заполните форму — перезвоним в течение 5 минут</p>
+        <form onsubmit="submitForm(event)">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+            <textarea name="message" placeholder="Что нужно сделать? (необязательно)" rows="3"></textarea>
+            <button type="submit" class="btn" style="width:100%;">Отправить</button>
+            <p class="privacy-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+    </div>
+</div>
+<a href="https://max.ru/u/79810242177" target="_blank" rel="noopener" class="float-messenger" aria-label="Написать в Max"><i class="fas fa-comment-dots"></i></a>
+<script src="js/script.js"></script>
+</body>
+</html>

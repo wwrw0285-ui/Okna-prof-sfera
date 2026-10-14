@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ремонт и установка окон в СПб — Окна проф-сфера</title>
+<meta name="description" content="Установка и все виды ремонтных работ по оконным конструкциям в СПб. Регулировка, замена стеклопакетов, уплотнителей. Козырьки, навесы, сварка. Тел: +7 (981) 024-21-77">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo-block">
+            <span class="logo"><i class="fas fa-tools"></i> Окна <span>проф-сфера</span></span>
+            <span class="logo-tagline">Полный цикл работ с окнами: от установки до ремонта</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li class="has-dropdown">
+                    <a href="services.html">Услуги</a>
+                    <ul class="dropdown">
+                        <li><a href="services.html">Ремонт окон</a></li>
+                        <li><a href="ustanovka.html">Установка и остекление</a></li>
+                        <li><a href="otdelka.html">Подоконники и откосы</a></li>
+                        <li><a href="kanopy.html">Козырьки и навесы</a></li>
+                        <li><a href="welding.html">Сварочные работы</a></li>
+                    </ul>
+                </li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="portfolio.html">Наши работы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header-contacts">
+            <a href="tel:+79810242177" class="header-phone"><i class="fas fa-phone-alt"></i> +7 (981) 024-21-77</a>
+            <button class="btn" onclick="openModal()">Заказать звонок</button>
+        </div>
+        <button class="burger" aria-label="Меню"><i class="fas fa-bars"></i></button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Ремонт окон в Санкт-Петербурге</h1>
+        <p>Полный цикл работ с окнами: от установки до ремонта. Выезд мастера за 1 час. Гарантия до 3 лет. Фиксированные цены без сюрпризов.</p>
+        <button class="btn" style="font-size:18px;padding:15px 40px;" onclick="openModal()">Вызвать мастера</button>
+        <div class="hero-features">
+            <div class="hero-feature"><i class="fas fa-clock"></i> Срочный выезд</div>
+            <div class="hero-feature"><i class="fas fa-hand-holding-usd"></i> Честные цены</div>
+            <div class="hero-feature"><i class="fas fa-shield-alt"></i> Договор и гарантия</div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <h2 class="section-title">Почему выбирают «Окна проф-сфера»</h2>
+        <div class="advantages-grid">
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-tools"></i></div><h3>Опыт более 10 лет</h3><p>Наши мастера устранили тысячи неисправностей окон ПВХ, дерева и алюминия.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-ruble-sign"></i></div><h3>Прозрачные цены</h3><p>Стоимость фиксируется до начала работ. Никаких скрытых доплат и навязывания услуг.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-file-contract"></i></div><h3>Официальный договор</h3><p>Работаем по договору — это гарантирует качество и соблюдение сроков.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-medal"></i></div><h3>Гарантия до 3 лет</h3><p>Предоставляем длительную гарантию на все виды работ и запчасти.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding" style="background:var(--light-bg);">
+    <div class="container">
+        <h2 class="section-title">Наши направления — ремонт окон и не только</h2>
+        <p class="section-subtitle">Полный цикл работ с окнами: ремонт, установка, остекление, отделка. А также козырьки, навесы и сварочные работы</p>
+        <div class="services-grid">
+            <div class="service-card" style="box-shadow:0 8px 25px rgba(231,76,60,.15);"><h3><i class="fas fa-window-maximize"></i> Ремонт окон</h3><p>Все виды ремонтных работ по оконным конструкциям: регулировка, замена уплотнителя, ручек, стеклопакетов, фурнитуры. Наше основное направление.</p><div class="service-price">от 500 ₽</div></div>
+            <div class="service-card"><h3><i class="fas fa-th-large"></i> Установка и остекление</h3><p>Установка окон ПВХ, деревянных, алюминиевых. Холодное и тёплое остекление балконов и лоджий.</p><div class="service-price">от 500 ₽</div></div>
+            <div class="service-card"><h3><i class="fas fa-layer-group"></i> Подоконники и откосы</h3><p>Установка и замена подоконников, внутренняя и наружная отделка откосов после ремонта или установки окон.</p><div class="service-price">от 500 ₽</div></div>
+            <div class="service-card"><h3><i class="fas fa-umbrella"></i> Козырьки и навесы</h3><p>Изготовление и установка козырьков на балконы, навесов над входом и для авто. Часто заказывают вместе с остеклением.</p><div class="service-price">от 500 ₽</div></div>
+            <div class="service-card"><h3><i class="fas fa-fire"></i> Сварочные работы</h3><p>Фермы, заборы, калитки, ворота под ключ. Металлоконструкции для окон, балконов, навесов. Ремонт металлоизделий.</p><div class="service-price">от 500 ₽</div></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <h2 class="section-title">Свяжитесь удобным способом</h2>
+        <p class="section-subtitle">Позвоните, напишите в Max или на email — ответим в течение 5 минут</p>
+        <div class="messenger-grid">
+            <a href="tel:+79810242177" class="messenger-card messenger-phone"><i class="fas fa-phone-alt"></i><h3>Позвонить</h3><p>+7 (981) 024-21-77</p></a>
+            <a href="https://max.ru/u/79810242177" target="_blank" rel="noopener" class="messenger-card messenger-max"><i class="fas fa-comment-dots"></i><h3>Max</h3><p>+7 (981) 024-21-77</p></a>
+            <a href="mailto:info@prof-sfera.ru" class="messenger-card messenger-email"><i class="fas fa-envelope"></i><h3>Email</h3><p>info@prof-sfera.ru</p></a>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding" style="background:var(--light-bg);">
+    <div class="container">
+        <h2 class="section-title">Как мы работаем</h2>
+        <div class="advantages-grid">
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-phone-volume"></i></div><h3>1. Заявка</h3><p>Вы звоните или оставляете заявку. Уточняем проблему и называем предварительную стоимость.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-car"></i></div><h3>2. Выезд мастера</h3><p>Мастер приезжает в удобное время, проводит диагностику и согласовывает точную цену.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-check-circle"></i></div><h3>3. Выполнение работ</h3><p>Выполняем ремонт на месте. Большинство работ занимает 30–60 минут.</p></div>
+            <div class="advantage-card"><div class="advantage-icon"><i class="fas fa-thumbs-up"></i></div><h3>4. Гарантия</h3><p>Выдаём гарантийный талон и даём рекомендации по уходу.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding cta">
+    <div class="container">
+        <h2>Не ждите, пока окно окончательно выйдет из строя!</h2>
+        <p>Оставьте заявку — мастер «Окна проф-сфера» приедет в удобное для вас время.</p>
+        <button class="btn" style="background:var(--white);color:var(--primary-color);" onclick="openModal()">Вызвать мастера</button>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col"><h4>Окна проф-сфера</h4><p>Установка и все виды ремонтных работ по оконным конструкциям в Санкт-Петербурге и Ленинградской области. Остекление, отделка, козырьки, сварочные работы.</p></div>
+            <div class="footer-col"><h4>Меню</h4><ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="services.html">Ремонт окон</a></li>
+                <li><a href="ustanovka.html">Установка и остекление</a></li>
+                <li><a href="otdelka.html">Подоконники и откосы</a></li>
+                <li><a href="kanopy.html">Козырьки и навесы</a></li>
+                <li><a href="welding.html">Сварочные работы</a></li>
+                <li><a href="prices.html">Цены</a></li>
+                <li><a href="portfolio.html">Наши работы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul></div>
+            <div class="footer-col"><h4>Контакты</h4><ul>
+                <li><a href="tel:+79810242177">+7 (981) 024-21-77</a></li>
+                <li><a href="mailto:info@prof-sfera.ru">info@prof-sfera.ru</a></li>
+                <li>Санкт-Петербург, ул. Яблочкова, 3</li>
+            </ul></div>
+            <div class="footer-col"><h4>Режим работы</h4><ul>
+                <li>Пн–Вс: 08:00 – 22:00</li>
+                <li>Выезд мастера — круглосуточно</li>
+            </ul>
+            <div class="footer-social">
+                <a href="https://max.ru/u/79810242177" target="_blank" rel="noopener" aria-label="Max"><i class="fas fa-comment-dots"></i></a>
+                <a href="mailto:info@prof-sfera.ru" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div></div>
+        </div>
+        <div class="copyright">&copy; 2026 Окна проф-сфера. Все права защищены.</div>
+    </div>
+</footer>
+
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <button class="close-modal" onclick="closeModal()">&times;</button>
+        <h3>Оставить заявку</h3>
+        <p>Заполните форму — перезвоним в течение 5 минут</p>
+        <form onsubmit="submitForm(event)">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+            <textarea name="message" placeholder="Что нужно сделать? (необязательно)" rows="3"></textarea>
+            <button type="submit" class="btn" style="width:100%;">Отправить</button>
+            <p class="privacy-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+    </div>
+</div>
+<a href="https://max.ru/u/79810242177" target="_blank" rel="noopener" class="float-messenger" aria-label="Написать в Max"><i class="fas fa-comment-dots"></i></a>
+<script src="js/script.js"></script>
+</body>
+</html>
